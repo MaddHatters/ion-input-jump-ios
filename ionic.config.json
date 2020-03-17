@@ -1,5 +1,7 @@
 {
   "name": "ion-input-jump-ios",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
