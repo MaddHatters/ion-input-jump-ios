@@ -29,3 +29,26 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+// <!-- Start of input test -->
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  background: #000000;
+  width: 90%;
+  max-width: 550px;
+}
+
+.input-field {
+  min-height: 64px;
+  height: 4em;
+  border: none;
+  --padding-start: 10px;
+
+  &__label {
+    color: #ffffff;
+  }
+}
+
+// <!-- End of input test-->
