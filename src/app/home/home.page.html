@@ -1,15 +1,11 @@
-<!-- <ion-content [fullscreen]="true"> -->
-
 <!-- Start of input test -->
 
   <ion-content>
-    <div class="home-page-container">
-      <div class="content">
-        <div class="input-container">
-          <ion-input inputmode="decimal" placeholder="Please enter the address" class="input-field"></ion-input>
-        </div>
-      </div>
-    </div>
+    <!-- This input bounces on focus -->
+    <ion-input inputmode="decimal" placeholder="This native input bounces" class="input-field"></ion-input>
+
+    <!-- This input does not bounce on focus -->
+    <ion-input inputmode="decimal" placeholder="This native input does not bounce" class="input-field-no-bounce"></ion-input>
   </ion-content>
 
 <!-- End of input test-->

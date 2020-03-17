@@ -1,36 +1,24 @@
 
 // <!-- Start of input test -->
 
-.home-page-container {
-  display: flex;
-  flex-direction: column;  
-  height: 100%;
-  width: 100%;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
-.input-container {
-  display: flex;
-  flex-direction: row;
-  background: #000000;
-  width: 90%;
-  max-width: 550px;
-}
-
 .input-field {
+  color: white;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   min-height: 64px;
   height: 4em;
-  border: none;
-  --padding-start: 10px;
+  background: black;
+}
 
-  &__label {
-    color: #ffffff;
-  }
+.input-field-no-bounce {
+  color: white;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: black;
 }
 
 // <!-- End of input test-->
